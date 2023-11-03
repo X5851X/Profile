@@ -1,0 +1,130 @@
+body, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dfe4ee;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    background-color: #333; 
+    color: #fff; 
+    font-family: 'Lucida Sans';
+    text-align: center;
+    font-size: 28px; 
+    padding: 10px; 
+}
+
+.profile {
+    background-image: url('https://storage.googleapis.com/my-project-403919.appspot.com/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 50px; 
+    text-align: center;
+}
+
+.profileIMG {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.row div {
+    width: 48%;
+}
+
+.info {
+    display: block;
+}
+
+.info div {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+/* Style the "Let's Connect" section */
+.findme {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.row-findme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 10;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-link i {
+    margin-left: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
